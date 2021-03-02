@@ -1,12 +1,13 @@
+@import "common.blocks/common.blocks.css";
+@import "library.blocks/library.blocks.css";
+
 @font-face {
   font-family: Rubik-R;
-  font-weight: 400;
   src: url("assets/fonts/Rubik/Rubik-Regular.ttf");
 }
 
 @font-face {
   font-family: Rubik-M;
-  font-weight: 500;
   src: url("assets/fonts/Rubik/Rubik-Medium.ttf");
 }
 
@@ -14,6 +15,7 @@
   margin: 0;
   font-family: Rubik-R, sans-serif;
   font-size: 20px;
+  background-color: #fff;
 }
 
 *,
@@ -23,5 +25,7 @@
 }
 
 .body {
+  display: flex;
+  justify-content: center;
   font-size: 1rem;
 }

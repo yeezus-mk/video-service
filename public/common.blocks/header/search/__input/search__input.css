@@ -1,0 +1,9 @@
+.search > .search__input {
+  flex-basis: 320px;
+  padding: 6px 0;
+  border-bottom: 1px solid #333;
+}
+
+.search__input::placeholder {
+  font-family: Rubik-R, sans-serif;
+}

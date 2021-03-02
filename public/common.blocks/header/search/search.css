@@ -1,0 +1,9 @@
+@import "__input/search__input.css";
+
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-family: Rubik-M, sans-serif;
+}
