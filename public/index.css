@@ -1,0 +1,27 @@
+@font-face {
+  font-family: Rubik-R;
+  font-weight: 400;
+  src: url("assets/fonts/Rubik/Rubik-Regular.ttf");
+}
+
+@font-face {
+  font-family: Rubik-M;
+  font-weight: 500;
+  src: url("assets/fonts/Rubik/Rubik-Medium.ttf");
+}
+
+.html {
+  margin: 0;
+  font-family: Rubik-R, sans-serif;
+  font-size: 20px;
+}
+
+*,
+::after,
+::before {
+  margin: 0;
+}
+
+.body {
+  font-size: 1rem;
+}
