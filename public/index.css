@@ -7,6 +7,11 @@
 }
 
 @font-face {
+  font-family: Rubik-L;
+  src: url("assets/fonts/Rubik/Rubik-Light.ttf");
+}
+
+@font-face {
   font-family: Rubik-M;
   src: url("assets/fonts/Rubik/Rubik-Medium.ttf");
 }
