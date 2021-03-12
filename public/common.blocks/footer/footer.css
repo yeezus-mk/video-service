@@ -1,0 +1,13 @@
+@import "__logo/footer__logo.css";
+@import "__container/footer__container.css";
+@import "__description/footer__description.css";
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 6rem;
+  font-size: 0.8rem;
+  background: #f2f2f2;
+}
