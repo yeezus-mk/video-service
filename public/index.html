@@ -12,13 +12,12 @@
   <title>video-service</title>
 </head>
 <body class="body">
-  <container class="container">
-    <header class="header">
+    <header class="header wrapper">
       <div class="logo">
         <img class="logo__icon" src="assets/img/icon/sign.png" alt="logo" title="Video sevice logo" />
         <h1 class="logo__title">Видеосервис</h1>
       </div>
-      <div class="search">
+      <div class="search wrapper">
         <input type="search" class="input search__input" placeholder="Поиск...">
         <button class="btn--white btn">Найти</button>
       </div>
@@ -28,14 +27,14 @@
         <button class="hide btn--white btn">Выйти</button>
       </div>
     </header>
-    <nav class="tabs">
+    <nav class="tabs wrapper">
       <input class="btn--tab" type="radio" name="tab button" id="tab__films" value="films" checked>
       <label class="tab__name" for="tab__films">Фильмы</label>
       <input class="btn--tab" type="radio" name="tab button" id="tab__channels" value="channels">
       <label class="tab__name" for="tab__channels">Телеканалы</label>
     </nav>
     <main class="main">
-      <div class="films">
+      <div class="films wrapper">
         <h2 class="title--group">🔥 Новинки</h2>
         <div class="carousel">
           <section class="carousel__item">
@@ -96,7 +95,7 @@
           </div>
         </div>
       </div>
-    <div data-simplebar class="channels hide">
+      <div data-simplebar class="channels wrapper hide">
         <section class="channel__card card_margin_bottom-16">
           <div class="channel__logo">
             <img class="channel__logo_img" src="assets/img/channels/1-channel.png" alt="Channel Первый канал" title="channel" />
@@ -219,9 +218,8 @@
         </section>
       </div>
     </main>
-	</container>
   <footer class="footer" id="footer">
-    <div class="container footer__container">
+    <div class="wrapper footer__container">
       <a class="footer__logo link" href="https://www.htc-cs.ru" title="logo">
         <img src="assets/img/htc-logo/htc-logo.png" alt="" title="htc-logo" />
       </a>

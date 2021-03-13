@@ -1,5 +1,4 @@
 @import "btn/btn.css";
-@import "container/container.css";
 @import "emoji/emoji.css";
 @import "hide/hide.css";
 @import "input/input.css";
@@ -8,3 +7,4 @@
 @import "simplebar-scrollbar/simplebar-scrollbar.css";
 @import "slick-slider/slick-slider.css";
 @import "title/title.css";
+@import "wrapper/wrapper.css";

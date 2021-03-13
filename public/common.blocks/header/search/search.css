@@ -4,6 +4,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 65%;
   font-family: Rubik-M, sans-serif;
+}
+
+.search.wrapper {
+  max-width: 21.65rem;
 }
