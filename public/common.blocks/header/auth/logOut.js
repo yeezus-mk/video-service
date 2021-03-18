@@ -1,9 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
-  window.reload = function() {
-    return false;
-  }
   
-  logOut.addEventListener('click', function() {
-    location.reload(); 
+  logOut.addEventListener('click', () => {
+    sessionStorage.setItem("is_reloaded", false);
+    window.location.reload();
   })
 })
