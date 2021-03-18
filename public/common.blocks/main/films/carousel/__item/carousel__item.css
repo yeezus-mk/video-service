@@ -1,0 +1,7 @@
+@import "__media/item__media.css";
+
+.carousel__item {
+  width: 14rem;
+  font-family: Rubik-L;
+  outline: 0;
+}

@@ -1,0 +1,14 @@
+@import "inputs/inputs.css";
+
+.modal__window {
+  z-index: 2;
+  display: flex;
+  justify-content: space-between;
+  width: 11.6rem;
+  height: 16.1rem;
+  padding: 1.8rem;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 0.4rem;
+}

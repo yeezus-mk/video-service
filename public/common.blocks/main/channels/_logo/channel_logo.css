@@ -1,0 +1,7 @@
+.channel__logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 162px;
+  width: 400px;
+}

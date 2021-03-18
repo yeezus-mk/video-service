@@ -1,0 +1,6 @@
+@import "__item/carousel__item.css";
+
+.carousel {
+  width: 100%;
+  padding: 0;
+}

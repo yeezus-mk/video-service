@@ -1,0 +1,10 @@
+@import "_line/channel__timetable_line.css";
+
+.channel__timetable {
+  font-size: 0.8rem;
+}
+
+.channel__timetable > .channel__name {
+  margin: 1.05rem 0 0.55rem;
+  font-size: 1rem;
+}

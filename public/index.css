@@ -1,0 +1,36 @@
+@import "common.blocks/common.blocks.css";
+@import "library.blocks/library.blocks.css";
+
+@font-face {
+  font-family: Rubik-R;
+  src: url("assets/fonts/Rubik/Rubik-Regular.ttf");
+}
+
+@font-face {
+  font-family: Rubik-L;
+  src: url("assets/fonts/Rubik/Rubik-Light.ttf");
+}
+
+@font-face {
+  font-family: Rubik-M;
+  src: url("assets/fonts/Rubik/Rubik-Medium.ttf");
+}
+
+.html {
+  margin: 0;
+  font-family: Rubik-R, sans-serif;
+  font-size: 20px;
+  background-color: #fff;
+}
+
+*,
+::after,
+::before {
+  margin: 0;
+}
+
+.body {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 1rem;
+}

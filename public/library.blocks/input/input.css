@@ -1,0 +1,13 @@
+.input {
+  font-family: inherit;
+  font-size: 0.8rem;
+  border: 0;
+  outline: 0;
+}
+
+.inputs > .input {
+  width: 100%;
+  padding: 0 0 6px;
+  margin: 0.6rem 0;
+  border-bottom: 1px solid #333;
+}

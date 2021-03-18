@@ -1,0 +1,8 @@
+@import "__item/group__item.css";
+
+.genre__group {
+  display: flex;
+  font-size: inherit;
+  color: #fff;
+  flex-direction: row;
+}

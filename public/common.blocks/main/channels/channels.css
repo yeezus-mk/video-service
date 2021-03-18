@@ -1,0 +1,6 @@
+@import "__card/channel__card.css";
+@import "_logo/channel_logo.css";
+
+.channels {
+  height: 34.8rem;
+}

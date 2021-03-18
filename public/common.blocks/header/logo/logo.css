@@ -1,0 +1,7 @@
+@import "__icon/logo__icon.css";
+@import "__title/logo__title.css";
+
+.logo {
+  display: flex;
+  align-items: center;
+}

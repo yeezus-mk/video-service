@@ -1,0 +1,10 @@
+@import "channels/channels.css";
+@import "films/films.css";
+
+.main {
+  display: flex;
+  width: 100%;
+  font-family: inherit;
+  font-size: 100%;
+  flex-direction: row;
+}
