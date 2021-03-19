@@ -29,8 +29,6 @@ function authHandler() {
   }
   if (checkbox.checked) {
     localStorage.setItem('login', login.value);
-    localStorage.setItem('password', password.value);
-    localStorage.setItem('changeUserName', user.value);
   }
 }
 

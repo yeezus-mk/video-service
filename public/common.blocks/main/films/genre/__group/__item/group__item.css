@@ -2,6 +2,7 @@
   display: flex;
   width: 14rem;
   height: 10.4rem;
+  margin-right: 1rem;
   cursor: pointer;
   flex-direction: column;
   justify-content: center;
@@ -9,6 +10,10 @@
   border-radius: 6px;
   opacity: 0.8;
   transition: 0.2s linear;
+}
+
+.group__item:last-child {
+  margin-right: 0;
 }
 
 .group__item:hover {
@@ -29,4 +34,19 @@
 
 .group__item:nth-child(5n+4) {
   background: linear-gradient(127.83deg, #828282 8.44%, #333 91.36%);
+}
+
+@media screen and (max-width: 768px) {
+.group__item {
+  width: calc(50% - 1rem);
+}
+
+.group__item:nth-child(2n+2) {
+  margin-right: 0;
+}
+
+.group__item:first-child,
+.group__item:nth-child(2) {
+  margin-bottom: 1rem;
+}
 }

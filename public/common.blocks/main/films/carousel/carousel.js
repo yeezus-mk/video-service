@@ -9,4 +9,12 @@ $('.carousel').slick({
   useTransforms: false,
   arrows: true,
   useCSS: false,
+  responsive: [
+    {
+      breakpoint: 1020,
+      settings: {
+        centerMode: true
+      }
+    }
+  ]
 });

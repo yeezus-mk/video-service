@@ -1,6 +1,7 @@
 @import "_line/channel__timetable_line.css";
 
 .channel__timetable {
+  width: 100%;
   font-size: 0.8rem;
 }
 

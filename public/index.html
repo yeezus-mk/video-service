@@ -76,15 +76,15 @@
       <div class="genre">
         <h2 class="title--group">Жанры</h2>
         <div class="genre__group">
-          <section class="group__item mr-1rem">
+          <section class="group__item">
             <span class="emoji">😁</span>
             <p class="title--item">Комедии</p>
           </section>
-          <section class="group__item mr-1rem">
+          <section class="group__item">
             <span class="emoji">😭</span>
             <p class="title--item">Драмы</p>
           </section>
-          <section class="group__item mr-1rem">
+          <section class="group__item">
             <span class="emoji">👽</span>
             <p class="title--item">Фантастика</p>
           </section>
@@ -240,8 +240,11 @@
         <h2 class="title--modal">Войти</h2>
         <input type="login" class="input" placeholder="Login" id="login" required>
         <input type="password" class="input" placeholder="Password" id="password" required>
-        <input type="checkbox" id="check" class="check__box">
-        <label for="check" class="check__label">Запомнить</label>
+        <div class="checkbox">
+          <input class="check__box" type="checkbox" name="check" id="checkbox">
+          <label class="_checkbox" for="checkbox"></label>
+          <label class="label__checkbox" for="checkbox">Запомнить</label>
+        </div>
       </div>
       <button class="btn--red btn" id="signIn">Войти</button>
     </form>

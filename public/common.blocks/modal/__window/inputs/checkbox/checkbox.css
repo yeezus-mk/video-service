@@ -1,0 +1,36 @@
+.checkbox {
+  display: flex;
+  align-items: center;
+  margin-top: 0.8rem;
+  flex-direction: row;
+}
+
+.check__box > .label__checkbox {
+  cursor: pointer;
+}
+
+.check__box {
+  position: absolute;
+  display: none;
+}
+
+._checkbox {
+  position: absolute;
+  display: block;
+  width: 0.8rem;
+  height: 0.8rem;
+  cursor: pointer;
+  border: 1px solid #333;
+  border-radius: 4px;
+}
+
+.label__checkbox {
+  margin-left: 1.2rem;
+  font-size: 0.8rem;
+}
+
+.check__box:checked + ._checkbox {
+  background-image: url("/public/assets/checkbox/checkbox-yes.png");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
