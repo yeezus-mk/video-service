@@ -15,7 +15,6 @@
 }
 
 ._checkbox {
-  position: absolute;
   display: block;
   width: 0.8rem;
   height: 0.8rem;
@@ -25,7 +24,7 @@
 }
 
 .label__checkbox {
-  margin-left: 1.2rem;
+  margin-left: 0.4rem;
   font-size: 0.8rem;
 }
 

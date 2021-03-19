@@ -32,6 +32,6 @@ function authHandler() {
   }
 }
 
-user.addEventListener('change', () => {
+user.addEventListener('change', function() {
   localStorage.setItem('user', user.value);
 })
