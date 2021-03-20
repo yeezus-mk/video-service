@@ -1,4 +1,1 @@
-# video-service
-Тестовое задание Frontend(Junior)
-
-Разработка приложения на React
+# video-service on react
