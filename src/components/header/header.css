@@ -1,0 +1,10 @@
+@import "logo/header-logo.css";
+@import "search/header-search.css";
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 1.8rem;
+  font-size: inherit;
+}
